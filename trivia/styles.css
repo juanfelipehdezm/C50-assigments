@@ -1,0 +1,45 @@
+.jumbotron {
+  background-color: rgba(170, 162, 162, 0.719);
+  color: rgb(122, 58, 58); /**font color**/
+  text-align: center;
+  padding: 32px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+}
+body {
+  background-color: rgb(233, 232, 232);
+  color: rgb(122, 58, 58);
+  font-size: 20px;
+  margin: 0;
+  text-align: left;
+}
+.container {
+  margin: auto;
+  padding: 0px 15px 15px 0px;
+}
+.section {
+  padding: 8px 32px 16px 32px;
+}
+.section:hover {
+  background-color: rgb(245, 245, 245);
+  transition: color 2s ease-in-out, background-color 0.15s ease-in-out; /**Is this nedeed ?**/
+}
+button {
+  background-color: rgb(224, 224, 224);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  border-color: rgb(122, 58, 58);
+  font-size: 15px;
+  padding: 5px 10px 8px 10px;
+  text-align: center;
+  margin: 0px 32px 0px 10px;
+}
+
+[type="text"] {
+  line-height: 1.8;
+  width: 25%;
+}
+
+footer {
+  padding-left: 32px;
+}
