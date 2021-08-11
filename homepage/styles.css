@@ -1,0 +1,26 @@
+.breadcrumb {
+  position: relative;
+  background-color: rgb(214, 187, 187);
+  font-family: "Times New Roman", Times, serif;
+}
+a {
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.homeImage {
+  display: block;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  color: rgb(143, 60, 60);
+  text-align: center;
+  font-family: "Lobster";
+  font-size: 50px;
+}
